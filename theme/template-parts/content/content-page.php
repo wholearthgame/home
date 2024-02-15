@@ -23,7 +23,7 @@
 
 	<?php wholearth_game_post_thumbnail(); ?>
 
-	<div <?php wholearth_game_content_class( 'entry-content' ); ?>>
+	<div class="entry-content snap-mandatory snap-y overflow-y-scroll" <?php wholearth_game_content_class( 'entry-content' ); ?>>
 		<?php
 		the_content();
 

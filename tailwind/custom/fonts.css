@@ -3,3 +3,7 @@
  *
  * These will be added immediately before Tailwind’s `base` layer.
  */
+@font-face {
+    font-family: "charter";
+    src: url("fonts/charter/Charter/charter_regular.woff2");
+}

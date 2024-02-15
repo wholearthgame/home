@@ -12,5 +12,29 @@
  * editor.
 */
 body {
-	@apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground font-sans;
+    font-family: "charter", serif;
+}
+
+.wp-block-group-is-layout-flex {
+
+    @apply justify-around my-5;
+}
+.site-branding {
+    @apply mx-auto mb-5;
+
+}
+
+.site-title {
+    @apply w-full text-5xl mx-auto text-center;
+}
+
+.entry-title {
+
+    @apply text-6xl mt-20 mx-auto text-center;
+}
+
+.center-point {
+
+    @apply snap-center;
 }
